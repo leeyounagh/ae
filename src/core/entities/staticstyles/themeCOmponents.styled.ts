@@ -1,13 +1,13 @@
-import * as styledComponents from "styled-components";
+import * as styledComponents from 'styled-components'
 
-import { Theme } from "./Theme";
+import { Theme } from '@/core/entities/staticstyles/Theme'
 
 const {
   default: styled,
   css,
   ThemeProvider,
-} = styledComponents as styledComponents.ThemedStyledComponentsModule<Theme>;
+} = styledComponents as styledComponents.ThemedStyledComponentsModule<Theme>
 
-export { css, ThemeProvider };
+export { css, ThemeProvider }
 
-export default styled;
+export default styled
